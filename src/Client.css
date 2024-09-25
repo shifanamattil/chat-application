@@ -1,0 +1,142 @@
+/* body{
+    font-family: Arial,sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+div {
+    max-width: 600px;
+    margin: auto;
+    /* padding: 5px; */
+    /* border-radius: 8px; */
+    /* background: white;
+    box-shadow: 0 20px 10px rgba(0,0,0,0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items:space-between;
+}
+h2{
+    text-align: center;
+    color: #333;
+}
+form{ */
+    /* display: flex;
+    justify-content: space-between; */
+    /* flex-direction: column; */
+    /* margin-bottom: 20px;
+
+}
+input[type="text"]{
+    flex: 1; */
+    /* max-width: 600px; */
+    /* padding: 10px; */
+    /* margin-bottom: 10px; */
+    /* border: 1px solid #ccc; */
+    /* margin-right: 10px; */
+    /* border-radius: 4px; */
+/* }
+button{
+    padding: 10px;
+    border: none; */
+    /* border-radius: 4px; */
+    /* background-color: #5cb85c; */
+    /* color: white; */
+    /* cursor: pointer; */
+/* } */
+/* button:hover {
+    background-color: #4cae4c;
+}
+p{
+    padding: 5px;
+    background: #e7f3fe; */
+    /* border-radius: 5px; */
+    /* margin: 5px 0;
+}
+input[type="text"]{
+    width: calc(100%-120px);
+} */ 
+
+
+
+
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid #070707;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-size: 26px;
+    color: #191b1c;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.msgdiv {
+   min-height: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: none;
+    margin-left: -350px;
+    
+}
+
+/* Styling each message */
+.paragragh {
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+   
+}
+
+.form, .joinnowform {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.input, .joinnowinput, .button {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.input, .joinnowinput {
+    flex: 1; 
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.button, .joinnow {
+    width: 100px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.joinnow {
+    background-color: #28a745;
+    color: white;
+}
